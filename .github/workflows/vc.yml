@@ -28,7 +28,6 @@ jobs:
           --layout D:\VS2022 ^
           --lang en-US ^
           --add Microsoft.VisualStudio.Workload.NativeDesktop ^
-          --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
           --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 ^
           --add Microsoft.VisualStudio.Component.Windows11SDK.26100 ^
           --add Microsoft.VisualStudio.Component.VC.CMake.Project ^
