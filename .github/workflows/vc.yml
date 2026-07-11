@@ -31,7 +31,10 @@ jobs:
          --add Microsoft.VisualStudio.Component.Windows11SDK.26100 ^
          --add Microsoft.VisualStudio.Component.VC.CMake.Project ^
          --add Microsoft.VisualStudio.Component.VC.CoreBuildTools ^
-         --add Microsoft.VisualStudio.Component.MSBuild
+         --add Microsoft.VisualStudio.Component.MSBuild ^
+         --wait ^
+         --passive ^
+         --verbose
 
     - name: Compress Build Result (High Compression)
       shell: cmd
