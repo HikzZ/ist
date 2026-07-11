@@ -33,8 +33,7 @@ jobs:
          --add Microsoft.VisualStudio.Component.VC.CoreBuildTools ^
          --add Microsoft.VisualStudio.Component.MSBuild ^
          --wait ^
-         --passive ^
-         --verbose
+         --passive
 
     - name: Compress Build Result (High Compression)
       shell: cmd
